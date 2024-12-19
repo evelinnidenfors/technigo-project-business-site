@@ -6,4 +6,4 @@ Upon clicking the CTA, it will make sure that you have entered a valid email as 
 
 ## View it live
 
-Can be viewed live on Vercel.
+Can be viewed live on Vercel: https://technigo-project-business-site-f92pq5i1l-evelinns-projects.vercel.app
