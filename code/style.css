@@ -165,6 +165,26 @@ button:hover {
   font-weight: bold;
 }
 
-/* .radio-section > div {
-  margin: 10px 0;
-} */
+@media screen and (max-width: 500px) {
+  body {
+    font-size: 0.8rem;
+  }
+
+  form {
+    width: 70%;
+  }
+
+  .container {
+    font-size: 0.6rem;
+  }
+
+  .checkmark {
+    height: 15px;
+    width: 15px;
+  }
+
+  .container .checkmark:after {
+    top: 4px;
+    left: 4px;
+  }
+}
