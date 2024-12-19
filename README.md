@@ -1,10 +1,9 @@
 # Business Site
 
-Replace this readme with your own information about the project. You can include things like:
+Project building a form consisting of three fields. The page should be responsive and look good on devices from 320px up to 1600px.
 
-- Brief description of the assignment
-- How you approached the task, what tools and techniques you used, and how you planned it
-- If you had more time, what would be next?
+Upon clicking the CTA, it will make sure that you have entered a valid email as well as a name. If all required fields are entered, a POST request is submitted with the information entered.
 
 ## View it live
-Every project should be deployed somewhere. Be sure to include the link to the deployed project so that the viewer can click around and see what it's all about.
+
+Can be viewed live on Vercel.
