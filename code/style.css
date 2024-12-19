@@ -159,6 +159,7 @@ button:hover {
   font-weight: bold;
 }
 
+/** Mobile styling **/
 @media screen and (max-width: 500px) {
   body {
     font-size: 0.8rem;
