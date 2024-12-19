@@ -12,44 +12,73 @@
       <h1>Purl & Program 🧶</h1>
     </div>
     <!-- Signup form -->
-    <form action="submit">
+    <form action="http://httpbin.org/anything" method="POST">
       <h2>Request Item</h2>
       <fieldset>
         <label class="label">
           <span class="name">Name</span>
-          <input type="text" name="name" placeholder="Jane Doe" />
+          <input
+            type="text"
+            name="name"
+            placeholder="Jane Doe"
+            required
+            class="input"
+          />
         </label>
         <label class="label">
           <span class="name">Email</span>
-          <input type="text" name="email" placeholder="jane@example.com" />
+          <input
+            type="email"
+            name="email"
+            placeholder="jane@example.com"
+            required
+            class="input"
+          />
         </label>
-        <label class="label">
+        <div class="wrapper">
           <span class="name">Next Project</span>
-          <input
-            class="radio-btn"
-            type="radio"
-            name="nextProject"
-            id="sweater"
-            placeholder="Sweater"
-          />
-          <label for="sweater">Sweater</label>
-          <input
-            class="radio-btn"
-            type="radio"
-            name="nextProject"
-            id="hat"
-            placeholder="Hat"
-          />
-          <label for="sweater">Hat</label>
-          <input
-            class="radio-btn"
-            type="radio"
-            name="nextProject"
-            id="dress"
-            placeholder="Dress"
-          />
-          <label for="sweater">Dress</label>
-        </label>
+          <div class="radio-wrapper">
+            <label class="container"
+              >Sweater
+              <input
+                class="radio-btn"
+                type="radio"
+                checked="checked"
+                name="radio"
+                id="sweater"
+                value="sweater"
+                placeholder="Sweater"
+              />
+              <span class="checkmark"></span>
+            </label>
+            <label class="container"
+              >Hat
+              <input
+                class="radio-btn"
+                type="radio"
+                name="radio"
+                id="hat"
+                value="hat"
+                placeholder="Hat"
+              />
+
+              <span class="checkmark"></span>
+            </label>
+            <label class="container"
+              >Dress
+              <input
+                class="radio-btn"
+                type="radio"
+                name="radio"
+                id="dress"
+                value="dress"
+                placeholder="Dress"
+              />
+
+              <span class="checkmark"></span>
+            </label>
+          </div>
+        </div>
       </fieldset>
       <button type="submit">Submit</button>
     </form>
